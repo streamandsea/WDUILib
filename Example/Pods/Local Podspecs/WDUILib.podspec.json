@@ -1,0 +1,22 @@
+{
+  "name": "WDUILib",
+  "version": "0.1.0",
+  "summary": "A common ui lib of iOS platform.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/streamandsea/WDUILib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "PureWindSN": "demo@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/streamandsea/WDUILib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "WDUILib/Classes/**/*"
+}

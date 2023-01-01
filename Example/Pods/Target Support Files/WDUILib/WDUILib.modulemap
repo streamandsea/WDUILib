@@ -1,0 +1,6 @@
+framework module WDUILib {
+  umbrella header "WDUILib-umbrella.h"
+
+  export *
+  module * { export * }
+}
