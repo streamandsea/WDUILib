@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WDUILib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WDUILib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WDUILib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WDUILib: 823d5b6afd75bbf7048e14512373de317580d7f8
+
+PODFILE CHECKSUM: ec0d0d80a9ff3b67faefbbc3d2907a7daf2d2096
+
+COCOAPODS: 1.11.3
