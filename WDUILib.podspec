@@ -1,4 +1,4 @@
-#
+shi#
 # Be sure to run `pod lib lint WDUILib.podspec' to ensure this is a
 # valid spec before submitting.
 #
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/PureWindSN/WDUILib'
+  s.homepage         = 'https://github.com/streamandsea/WDUILib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PureWindSN' => '1983457078@qq.com' }
-  s.source           = { :git => 'https://github.com/PureWindSN/WDUILib.git', :tag => s.version.to_s }
+  s.author           = { 'PureWindSN' => 'demo@qq.com' }
+  s.source           = { :git => 'https://github.com/streamandsea/WDUILib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
