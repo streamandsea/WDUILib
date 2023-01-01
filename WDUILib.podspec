@@ -1,4 +1,4 @@
-shi#
+#
 # Be sure to run `pod lib lint WDUILib.podspec' to ensure this is a
 # valid spec before submitting.
 #
