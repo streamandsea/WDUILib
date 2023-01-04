@@ -12,21 +12,11 @@
 
 @implementation UITableView (Wind)
 
-+ (void)load {
-    Method test = class_getClassMethod(self, @selector(reloadDataOrEmpty:));
-    Method reloadData = class_getClassMethod(self, @selector(reloadData));
-    method_exchangeImplementations(test, reloadData);
-}
-
 - (void)awakeFromNib {
     [super awakeFromNib];
     self.estimatedRowHeight = 0;
     self.estimatedSectionHeaderHeight = 0;
     self.estimatedSectionFooterHeight = 0;
-}
-
-- (void)reloadDataOrEmpty {
-    [self reloadDataOrEmpty:nil];
 }
 
 - (void)reloadDataOrEmpty:(Action)action {
