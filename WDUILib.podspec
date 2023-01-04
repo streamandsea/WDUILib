@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/streamandsea/WDUILib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PureWindSN' => 'demo@qq.com' }
+  s.author           = { 'streamandsea' => 'demo@qq.com' }
   s.source           = { :git => 'https://github.com/streamandsea/WDUILib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
